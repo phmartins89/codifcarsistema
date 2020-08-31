@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55a7c4a5-3614-45a5-88fd-4410c4de9cd7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PesquisasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PesquisasController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orcamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orcamento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_30_182056_criar_tabela_orcamentos.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_30_182056_criar_tabela_orcamentos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Pesquisas/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Pesquisas/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Pesquisas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Pesquisas/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
@@ -10,12 +19,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -130,7 +139,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projetoFinal" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,7 +163,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598804939092</updated>
-      <workItem from="1598804940113" duration="13520000" />
+      <workItem from="1598804940113" duration="21596000" />
+      <workItem from="1598868753514" duration="5153000" />
     </task>
     <servers />
   </component>
@@ -162,14 +172,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="410" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598827001452">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="410" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598827001452" />
     <state x="236" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598811248957">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="236" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1598811248957" />
-    <state x="195" y="247" key="NewPhpClassDialog" timestamp="1598812095905">
+    <state x="155" y="222" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598870856752">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="195" y="247" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598812095905" />
+    <state x="155" y="222" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598870856752" />
+    <state x="217" y="222" key="FileChooserDialogImpl" timestamp="1598870356848">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="217" y="222" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598870356848" />
+    <state x="195" y="247" key="NewPhpClassDialog" timestamp="1598871471080">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="195" y="247" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598871471080" />
     <state x="325" y="447" key="NewPhpFileDialog" timestamp="1598812060904">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -178,5 +200,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="0" y="156" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1598817872673" />
+    <state x="737" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598823913865">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="737" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1598823913865" />
   </component>
 </project>

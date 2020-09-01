@@ -13,9 +13,14 @@ class CriarTabelaOrcamentos extends Migration
      */
     public function up()
     {
-        Schema::create('orcamentos', function (Blueprint $table){
+        Schema::create('orcamentos', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nome');
+            $table->string('vendedor');
+            $table->float('valor');
+            $table->dateTime('data');
+            $table->text('descricao');
+            $table->timestamps();
 
         });
     }

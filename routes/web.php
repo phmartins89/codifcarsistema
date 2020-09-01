@@ -1,8 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-
-/**/
+/* use Illuminate\Support\Facades\Route;*/
 
 Route::get('/pesquisas', 'PesquisasController@index')
     ->name('listar_orcamentos');

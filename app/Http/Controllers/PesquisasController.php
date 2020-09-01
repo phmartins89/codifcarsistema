@@ -10,6 +10,7 @@ use illuminate\Http\Request;
 
 class PesquisasController extends Controller
 {
+
     public function index(Request $request) {
         $orcamentos = Orcamento::query()
             ->orderBy('nome')
@@ -26,11 +27,11 @@ class PesquisasController extends Controller
 
     public function store(OrcamentosFormRequest $request)
     {
-        $orcamentos = Orcamento::create($request->all());
+        $orcamento = Orcamento::create($request->all());
         $request->session()
             ->flash(
                 'mensagem',
-                "Orcamento {$orcamentos->id} criado com sucesso {$orcamentos->nome}"
+                "Orcamento {$orcamento->id} criado com sucesso {$orcamento->nome}"
             );
 
         return redirect()->route('listar_orcamentos');

@@ -18,7 +18,17 @@
            @csrf
             <div class="form-group">
                 <label for="nome" class="">Nome do Cliente</label>
-                <input type="text" class="form-control" name="nome" id="nome"> <!--Caixas de input -->
+                <input type="text" class="form-control" name="nome" id="nome"> <!--Caixas de texto -->
+
+                <label for="vendedor" class="">Nome do Vendedor</label>
+                <input type="text" class="form-control" name="nome_vendedor" id="nome_vendedor">
+
+                <label for="nome" class="">Descrição do Orçamento</label>
+                <input type="text" class="form-control" name="desc" id="desc">
+
+                <label for="nome" class="">Preço</label>
+                <input type="text" class="form-control" name="preco" id="preco">
+
             </div>
 
             <button class="btn btn-primary">Adicionar</button>

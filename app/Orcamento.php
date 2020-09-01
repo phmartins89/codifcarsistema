@@ -9,6 +9,6 @@ use Illuminate\Database\Eloquent\Model;
 class Orcamento extends Model
 {
     public $timestamps = false;
-    protected $fillable = ['nome'];
+    protected $fillable = ['nome','vendedor','data','desc','valor'];
 
 }

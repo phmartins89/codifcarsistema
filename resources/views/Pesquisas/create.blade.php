@@ -20,14 +20,14 @@
                 <label for="nome" class="">Nome do Cliente</label>
                 <input type="text" class="form-control" name="nome" id="nome"> <!--Caixas de texto -->
 
-                <label for="vendedor" class="">Nome do Vendedor</label>
+               <!-- <label for="vendedor" class="">Nome do Vendedor</label>
                 <input type="text" class="form-control" name="nome_vendedor" id="nome_vendedor">
 
                 <label for="nome" class="">Descrição do Orçamento</label>
                 <input type="text" class="form-control" name="desc" id="desc">
 
                 <label for="nome" class="">Preço</label>
-                <input type="text" class="form-control" name="preco" id="preco">
+                <input type="text" class="form-control" name="preco" id="preco"> -->
 
             </div>
 

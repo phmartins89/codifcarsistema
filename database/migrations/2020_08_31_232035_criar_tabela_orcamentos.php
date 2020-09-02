@@ -21,8 +21,7 @@ class CriarTabelaOrcamentos extends Migration
             $table->dateTime('data');
             $table->text('descricao');
             $table->timestamps();
-
-        });
+       });
     }
 
     /**
